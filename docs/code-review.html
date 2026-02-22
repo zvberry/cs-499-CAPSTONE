@@ -1,38 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Code Review | Zeb Berry</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    body { font-family: Arial, sans-serif; max-width: 900px; margin: 40px auto; padding: 0 20px; line-height: 1.6; }
-    nav a { margin-right: 15px; text-decoration: none; }
-    .card { border: 1px solid #ddd; border-radius: 8px; padding: 20px; margin: 20px 0; }
-  </style>
+    <meta charset="UTF-8">
+    <title>Code Review | Zeb Berry</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+            line-height: 1.6;
+        }
+
+        nav a {
+            margin-right: 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .card {
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+
+        h1, h2 {
+            margin-top: 0;
+        }
+
+        a.button {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 15px;
+            background-color: #222;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+        }
+
+        a.button:hover {
+            background-color: #444;
+        }
+    </style>
 </head>
+
 <body>
 
 <h1>Code Review</h1>
 
 <nav>
-  <a href="/cs-499-CAPSTONE/">Home</a>
-  <a href="/cs-499-CAPSTONE/self-assessment.html">Self-Assessment</a>
-  <a href="/cs-499-CAPSTONE/code-review.html">Code Review</a>
-  <a href="/cs-499-CAPSTONE/artifact.html">Artifact</a>
-  <a href="/cs-499-CAPSTONE/contact.html">Contact</a>
+    <a href="index.html">Home</a>
+    <a href="self-assessment.html">Self-Assessment</a>
+    <a href="code-review.html">Code Review</a>
+    <a href="artifact.html">Artifact</a>
+    <a href="contact.html">Contact</a>
 </nav>
 
 <div class="card">
-  <p>
-    This code review walks through the original functionality of the Animal Shelter project,
-    identifies areas for improvement, and explains the enhancements made across all three
-    required categories.
-  </p>
+    <h2>Overview</h2>
+    <p>
+        This code review examines the original Grazioso Salvare Animal Shelter application. 
+        The purpose of the review was to evaluate the existing functionality, identify areas 
+        for improvement, and outline enhancements across software design and engineering, 
+        algorithms and data structures, and databases.
+    </p>
 
-  <p>
-    <strong>Video Link:</strong><br>
-    https://youtu.be/gpSgxVtv-sQ
-  </p>
+    <p>
+        During the review, I discussed the structure of the original application, its 
+        implementation of CRUD operations using MongoDB, and opportunities to improve 
+        maintainability, readability, validation, and overall efficiency.
+    </p>
+</div>
+
+<div class="card">
+    <h2>Key Areas Discussed</h2>
+    <ul>
+        <li>Existing functionality and overall system design</li>
+        <li>Code structure and modular organization</li>
+        <li>Algorithmic efficiency and data handling</li>
+        <li>Database interaction and validation improvements</li>
+        <li>Planned enhancements for each capstone category</li>
+    </ul>
+</div>
+
+<div class="card">
+    <h2>Code Review Video</h2>
+
+    <p>
+        Below is my recorded code review presentation discussing the original artifact, 
+        identified areas for improvement, and the planned enhancements implemented 
+        throughout this capstone project.
+    </p>
+
+    <a href="https://youtu.be/gpSgxVtv-sQ" target="_blank" rel="noopener" class="button">
+        Watch Code Review on YouTube
+    </a>
 </div>
 
 </body>
